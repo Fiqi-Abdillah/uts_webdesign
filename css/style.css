@@ -1,0 +1,136 @@
+* {
+  position: relative;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: red;
+  background: #f3fff4;
+  margin: 0px;
+  padding: 0px;
+}
+/* navbar */
+.navbar {
+  z-index: 3;
+}
+.nav-color {
+  background: #4d0020;
+  transition: all ease-in-out 0.5s;
+}
+.bg-transparent {
+  transition: all ease-in 0.3s;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 16px;
+}
+.btn1 {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: 125px;
+  height: 40px;
+}
+.btn2 {
+  background: white;
+  border: none;
+  color: #4d0020;
+  font-size: 16px;
+  font-weight: 700;
+  width: 125px;
+  height: 40px;
+}
+/* hero */
+#hero {
+  width: 100%;
+  height: 100vh;
+}
+#profil {
+  background: #a40e4c;
+  height: 45vh;
+}
+#profil .haa {
+  font-weight: 700;
+  color: #f0c808;
+}
+#profil .peh {
+  font-weight: 400;
+  color: rgb(43, 40, 40);
+}
+#poto {
+  background: #a40e4c;
+}
+#poto h1 {
+  font-weight: 700;
+}
+#poto img {
+  border-radius: 20px;
+}
+#harga {
+  background: #a40e4c;
+}
+#harga .card {
+  border-radius: 20px;
+  background: #4d0020;
+  color: white;
+}
+#harga .card .button {
+  border: none;
+  border-radius: 6px;
+}
+#testimoni {
+  background: #a40e4c;
+}
+#testimoni img {
+  border: 3px solid #a40e4c;
+}
+.btn-to-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-to-top img {
+  width: 50px;
+  height: 50px;
+  transition: all ease-in-out 1s;
+}
+/* layanan */
+#layanan {
+  width: 100%;
+
+  background: #a40e4c;
+}
+#layanan button {
+  transition: all ease 1s;
+}
+#layanan button:hover {
+  background: rgb(233, 123, 123);
+}
+/* customer */
+#customer {
+  background: #a40e4c;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+/* login */
+#login {
+  background-image: url(bg7.jpeg);
+  background-size: cover;
+}
+
+#login ::placeholder {
+  color: white;
+}

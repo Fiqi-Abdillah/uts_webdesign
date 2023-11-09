@@ -1,0 +1,28 @@
+const goToBtn = document.querySelector(".btn-to-top");
+
+window.addEventListener("scroll", checkHeight);
+
+function checkHeight() {
+  if (window.scrollY > 400) {
+    goToBtn.style.display = "flex";
+  } else {
+    goToBtn.style.display = "none";
+  }
+}
+
+goToBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+const navbar = document.getElementsByTagName("nav")[0];
+window.addEventListener("scroll", function () {
+  console.log(window.scrollY);
+  if (window.scrollY > 1) {
+    navbar.classList.replace("bg-transparent", "nav-color");
+  } else if (window.scrollY <= 0) {
+    navbar.classList.replace("nav-color", "bg-transparent");
+  }
+});
